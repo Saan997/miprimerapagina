@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Mi primera pagina web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <main>
+        <h1>Aprendiendo a programar</h1>
+
+        <div class="cuerpo-nav">
+            <nav class="navbar" role="navigation">
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Acerca.html">Productos</a></li>
+                    <li><a href="giphy.gif">Sugerencias</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+
+         <div class="cuerpo">
+             <h2>Contacto</h2>
+             <p>¡Contactános para cualquier consulta o solicitud de información!</p>
+         <form>   
+            <div class="columnas">
+                <div class="texto">
+              <div class="column1">
+                 <label for="nombre">Nombre:</label><br>
+                 <input type="text" id="nombre" name="nombre">
+              </div>
+
+            <div class="column1">
+               <label for="email">Correo electrónico:</label><br>
+               <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="column1">  
+               <label for="mensaje">Mensaje:</label><br>
+               <textarea id="mensaje" name="mensaje"></textarea>
+               <button type="submit">Enviar</button>
+            </div>
+        </div>
+
+<img src="Fotos/inbox-gif.gif" alt="MensajeEnviado" width="250px">
+</div>
+         </form>         
+          </div>
+
+        </main>
+
+          <footer>
+            <p>Informacion sobre el desarrollador</p>
+            <button onclick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz click en mi!</button>
+            
+            <div class="foto">
+                <img src="Fotos/giphy.gif" alt="programacion" width="90%">
+             </div> 
+        </footer>
+             
+        <script src="script.js"></script>
+    </body>
+
+
+
+  
+    
+    </div>
+    </html>
+
+
+    
