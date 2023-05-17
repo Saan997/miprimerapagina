@@ -203,3 +203,6 @@ footer {
     border: solid #22223b;
     margin: 10px;
    }
+   .greeting {
+    text-align: center;
+   }
