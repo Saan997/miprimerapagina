@@ -8,10 +8,10 @@ function validateEmail(email) {
 
 
 function validateForm() {
-    const input = document.getElementById("email")
-    const inputValue = input.value
+    const emailInput = document.getElementById("email")
+    const email = emailInput.value;
 
-    if (!validateEmail(inputValue)) {
+    if (!validateEmail(email)) {
         alert('Por favor ingrese un correo electrónico válido.');
         } else {
         alert('Correo electrónico enviado correctamente.');
